@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galaxia a 5 seg / Destellos</title>
+    <title>Galaxia a 3 seg / Destellos</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -35,11 +35,11 @@
 
         // ⚙️ CONFIGURACIÓN EXACTA:
         const config = {
-            cantidad: 3500,
+            cantidad: 4000,
             radioTotal: Math.min(lienzo.width, lienzo.height) / 2.5,
             poderConcentracion: 2.5,
             // ⏱️ Una vuelta completa EXACTA cada 5 segundos:
-            velocidad: (Math.PI * 2) / 5000,
+            velocidad: (Math.PI * 2) / 3000,
             // ✨ Colores con destello brillante:
             colores: ['#ffffff', '#ffffcc', '#ffcc80', '#ff9800', '#ffd700', '#ff8a80', '#b39ddb', '#80d8ff']
         };
